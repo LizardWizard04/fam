@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background: #f2d388;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bungee Shade', cursive;
+    font-size: 7rem;
+    
+    background-image: linear-gradient(to left, #470aee, #e606ba);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+.main {
+  max-height: 100vh;
+  background: #f2d388;
+}
+.sonic {
+  max-height: 60vh;
+  margin: 8rem 8rem 8rem;
+}

@@ -20,6 +20,12 @@ h2 {
   font-size: 5rem;
   text-align: center;
 }
+img {
+  transition: transform 0.7s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+}
 .portraits {
   max-width: 25rem;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
